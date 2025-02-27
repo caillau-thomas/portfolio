@@ -1,0 +1,54 @@
+:root {
+
+  /* Fonts */
+  --font-primary: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  
+  --font-size-s: 2.5rem;
+  --font-size-m: 3rem;  
+  --font-size-2m: 4rem;     
+  --font-size-l: 6rem;
+
+  /* Colors */
+  --color-primary: #001a30;
+  --color-secondary: #60a5fa;
+  --color-background: #ecf0f1;
+
+  --gradient-from-bottom: linear-gradient(to top, #2563EB, #60A5FA, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF);
+
+  /* Spacing */
+  --space-s: 1em;
+  --space-m: 1.5em;
+  --space-l: 2em;
+  --space-xl: 4em;
+
+
+  /* Widths */
+  --width-s: 24em;
+  --width-m: 32em;
+  --width-l: 48em;
+  --width-xl: 64em;
+
+  /* Border Radius */
+  --radius-small: 4px;
+  --radius-medium: 8px;
+  --radius-large: 16px;
+
+  /* Shadows */
+  --shadow-small: 0 1px 2px rgba(0, 0, 0, 0.1);
+  --shadow-medium: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-large: 0 10px 15px rgba(0, 0, 0, 0.2);
+  --shadow-text: 0px 2px 10px rgb(0, 0, 0);
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-primary);
+  color: var(color-primary);
+  background-color: var(--color-background);
+  scroll-behavior: smooth;
+}
