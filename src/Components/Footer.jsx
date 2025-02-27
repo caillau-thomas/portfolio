@@ -1,6 +1,7 @@
-/* eslint-disable no-irregular-whitespace */
 import styled from 'styled-components'
-import {H1, H2} from './GlobalStyledComponents'
+import { H1, H2 } from './GlobalStyledComponents'
+import BlurText from "./Animations/BlurTextAnimation";
+import './Animations/style.css'
 
 const Body = styled.div`
   display: flex;
@@ -10,6 +11,10 @@ const Body = styled.div`
   padding-left: var(--space-l);
   padding-right: var(--space-l);
   padding-top: var(--space-xl);
+  @media (max-width: 1024px) {
+    padding-left: var(--space-m);
+    padding-right: var(--space-m);
+  }
 `
 
 const Div = styled.div`
@@ -18,14 +23,31 @@ const Div = styled.div`
 `
 
 const Footer = () => {
-    return (
-        <Body>
-            <Div>
-                <H1>Et pourquoi pas vous ?</H1>
-                <H2>Realisons un projet qui <span style={{color: 'var(--color-secondary)'}}>vous ressemble </span> ! ✌️​</H2>
-            </Div>
-        </Body>
-    )
+  const handleAnimationComplete = () => {
+    console.log('Animation completed!');
+  };
+  return (
+    <Body>
+      <Div>
+        <BlurText
+          text="Et pourquoi pas vous ?"
+          delay={120}
+          animateBy="words"
+          direction="top"
+          className="H1"
+          onAnimationComplete={handleAnimationComplete}
+        />
+        <BlurText
+          text="Realisons un projet qui vous ressemble ! ✌️"
+          delay={120}
+          animateBy="words"
+          direction="top"
+          className="H3"
+          onAnimationComplete={handleAnimationComplete}
+        />
+      </Div>
+    </Body>
+  )
 }
 
 export default Footer
