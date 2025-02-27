@@ -34,7 +34,7 @@ const Footer = () => {
           delay={120}
           animateBy="words"
           direction="top"
-          className="H1"
+          className="H4"
           onAnimationComplete={handleAnimationComplete}
         />
         <BlurText

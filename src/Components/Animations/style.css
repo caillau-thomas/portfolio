@@ -38,7 +38,30 @@
 }
 
 .H3 span:nth-child(4),
-.H1 span:nth-child(5),
-.H1 span:nth-child(6) {
+.H3 span:nth-child(5),
+.H3 span:nth-child(6) {
   color: var(--color-secondary);
 }
+
+.H3 {
+  font-size: var(--font-size-2m);
+  font-weight: 300;
+  margin: 0;
+
+  @media (max-width: 1024px) {
+    font-size: var(--font-size-1s);
+    font-weight: 300;
+  }
+}
+
+.H4 {
+  font-size: var(--font-size-l);
+  font-weight: 500;
+  margin: 0;
+
+  @media (max-width: 1024px) {
+    font-size: var(--font-size-2s);
+    font-weight: 500;
+  }
+}
+
