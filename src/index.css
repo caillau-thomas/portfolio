@@ -3,7 +3,10 @@
   /* Fonts */
   --font-primary: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
   
-  --font-size-s: 2.5rem;
+  --font-size-xs: 1.2rem;
+  --font-size-s: 1.5rem;
+  --font-size-1s: 2rem;
+  --font-size-2s: 2.5rem;
   --font-size-m: 3rem;  
   --font-size-2m: 4rem;     
   --font-size-l: 6rem;
@@ -13,20 +16,21 @@
   --color-secondary: #60a5fa;
   --color-background: #ecf0f1;
 
-  --gradient-from-bottom: linear-gradient(to top, #2563EB, #60A5FA, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF);
+  --gradient-from-bottom: linear-gradient(to top, #2563EB, #60A5FA, #ecf0f1, #ecf0f1, #ecf0f1, #ecf0f1);
+  --gradient-from-top: linear-gradient(to bottom, #2563EB, #60A5FA, #ecf0f1,#ecf0f1, #ecf0f1, #ecf0f1, #ecf0f1, #ecf0f1, #ecf0f1);
 
   /* Spacing */
   --space-s: 1em;
-  --space-m: 1.5em;
-  --space-l: 2em;
-  --space-xl: 4em;
+  --space-m: 2em;
+  --space-l: 4em;
+  --space-xl: 8em;
 
 
   /* Widths */
   --width-s: 24em;
   --width-m: 32em;
-  --width-l: 48em;
-  --width-xl: 64em;
+  --width-l: 64em;
+  --width-xl: 96em;
 
   /* Border Radius */
   --radius-small: 4px;
@@ -48,7 +52,7 @@ html {
 body {
   margin: 0;
   font-family: var(--font-primary);
-  color: var(color-primary);
+  color: var(--color-primary);
   background-color: var(--color-background);
   scroll-behavior: smooth;
 }
