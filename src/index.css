@@ -17,8 +17,8 @@
   --color-tertiary: #96a5be;
   --color-background: #ecf0f1;
 
-  --gradient-from-bottom: linear-gradient(to top, #2563EB 0%, #60A5FA 10%, #ecf0f1 30%);
-  --gradient-from-top: linear-gradient(to bottom, #2563EB 0%, #60A5FA 5%, #ecf0f1 25%);
+  --gradient-from-bottom: linear-gradient(to top, #2563EB 0%, #60A5FA 30%, #ecf0f1 80%);
+  --gradient-from-top: linear-gradient(to bottom, #2563EB 0%, #60A5FA 30%, #ecf0f1 100%);
   
   /* Spacing */
   --space-s: 1em;

@@ -1,6 +1,8 @@
 import { Outlet } from 'react-router-dom'
 import styled from 'styled-components'
 import Footer from './Components/Footer'
+import Contact from './Components/Contact'
+import Header from './Components/Header'
 
 
 const Layout = styled.div`
@@ -15,9 +17,11 @@ const Body = styled.div`
 function App() {
   return (
     <Layout>
+      <Header />
       <Body>
         <Outlet />
       </Body>
+      <Contact />
       <Footer />
     </Layout>
   )
