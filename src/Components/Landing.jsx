@@ -8,12 +8,14 @@ import Chevron from '../assets/chevron.png'
 const Body = styled.div`
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  justify-content: center;
-  background: var(--gradient-from-top);
+  height: 80vh;
+  justify-content: baseline;
+  padding-top: var(--space-m);
   padding-left: var(--space-l);
   padding-right: var(--space-l);
+
   @media (max-width: 1024px) {
+    height: auto;
     padding-left: var(--space-m);
     padding-right: var(--space-m);
   }
@@ -22,9 +24,9 @@ const Body = styled.div`
 const Div = styled.div`
   display: flex;
   flex-direction: column;
-  gap:var(--space-s);
+  gap:var(--space-l);
   @media (max-width: 1024px) {
-    gap:var(--space-s);
+    gap: 0;
   }
 `
 
@@ -55,17 +57,13 @@ const ScrollBtn = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: var(--space-1xl);
-  @media (max-width: 1024px) {
-    margin-top: var(--space-xs);
-  }
 `;
 
 
 const ScrollDown = styled.a`
   display: block;
-  width: 70px; 
-  height: 70px; 
+  width: 50px; 
+  height: 50px; 
   position: relative;
   background-image: url(${Chevron});
   background-size: contain;
@@ -74,12 +72,8 @@ const ScrollDown = styled.a`
   text-align: center;
   cursor: pointer;
   @media (max-width: 1280px) {
-    width: 60px; 
-    height: 60px; 
-  }
-  @media (max-width: 1024px) {
-    width: 50px; 
-    height: 50px; 
+    width: 40px; 
+    height: 40px; 
   }
 `;
 
