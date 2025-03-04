@@ -3,6 +3,11 @@
   font-weight: 500;
   margin: 0;
 
+  @media (max-width: 1280px) {
+    font-size: var(--font-size-2m);
+    font-weight: 500;
+  }
+
   @media (max-width: 1024px) {
     font-size: var(--font-size-2s);
     font-weight: 500;
@@ -16,9 +21,14 @@
 }
 
 .H2 {
-  font-size: var(--font-size-2m);
+  font-size: var(--font-size-m);
   font-weight: 300;
   margin: 0;
+
+  @media (max-width: 1280px) {
+    font-size: var(--font-size-m);
+    font-weight: 300;
+  }
 
   @media (max-width: 1024px) {
     font-size: var(--font-size-1s);
@@ -26,16 +36,6 @@
   }
 }
 
-.H3 {
-  font-size: var(--font-size-2m);
-  font-weight: 300;
-  margin: 0;
-
-  @media (max-width: 1024px) {
-    font-size: var(--font-size-1s);
-    font-weight: 300;
-  }
-}
 
 .H3 span:nth-child(4),
 .H3 span:nth-child(5),
@@ -44,9 +44,14 @@
 }
 
 .H3 {
-  font-size: var(--font-size-2m);
+  font-size: var(--font-size-m);
   font-weight: 300;
   margin: 0;
+
+  @media (max-width: 1280px) {
+    font-size: var(--font-size-m);
+    font-weight: 300;
+  }
 
   @media (max-width: 1024px) {
     font-size: var(--font-size-1s);
@@ -58,6 +63,11 @@
   font-size: var(--font-size-l);
   font-weight: 500;
   margin: 0;
+  
+  @media (max-width: 1280px) {
+    font-size: var(--font-size-2m);
+    font-weight: 500;
+  }
 
   @media (max-width: 1024px) {
     font-size: var(--font-size-2s);
