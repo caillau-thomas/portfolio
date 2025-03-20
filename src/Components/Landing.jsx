@@ -9,8 +9,8 @@ const Body = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: baseline;
-  padding: var(--space-l) var(--space-l);
-
+  padding: var(--space-m) var(--space-l);
+  
   @media (max-width: 1024px) {
     padding-left: var(--space-m);
     padding-right: var(--space-m);
@@ -103,9 +103,9 @@ const Landing = () => {
           />
           <NavLink>
             <A href="https://www.linkedin.com/in/thomas-caillau/">👉​ A propos de moi</A>
-            <A href="#Projets">💻​ Mes Projets</A>
+            <A href="/portfolio/assets/CV_TCAILLAU_DEV_WEB.pdf" download="CV_TCAILLAU_DEV_WEB.pdf">💾​​ Mon CV</A>
             <A href="mailto:tcaillau.dev@gmail.com">✉️​ Contact</A>
-            <A href="/portfolio/assets/CV_TCAILLAU_DEV_WEB.pdf" download="CV_TCAILLAU_DEV_WEB.pdf">💾​​ Telechargez mon CV</A>
+            <A href="#Projets">💻​ Mes Projets</A>
           </NavLink>
         </Heading>
 
