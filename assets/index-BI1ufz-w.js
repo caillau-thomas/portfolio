@@ -263,7 +263,7 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
   gap: var(--space-m);
   padding-top: var(--space-s);
   padding-bottom: var(--space-s);
-  
+
   @media (max-width: 1024px) {
     gap:var(--space-s);
   }
