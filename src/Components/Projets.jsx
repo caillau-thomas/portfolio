@@ -31,7 +31,7 @@ const Div = styled.div`
     gap: 2em;
     padding: var(--space-s) var(--space-m);
   }
-  @media (max-width: 1023px) {
+  @media (max-width: 768px) {
     grid-template-columns: 1fr;
   }
 `
