@@ -34,7 +34,7 @@ const Heading = styled.div`
 
   @media (max-width: 1024px) {
     padding-right: 0;
-    gap:var(--space-s);
+    gap:var(--space-xs);
   }
 `;
 
@@ -73,6 +73,7 @@ const ScrollDown = styled.a`
   @media (max-width: 1280px) {
     width: 40px; 
     height: 40px; 
+    margin-top: 25px;
   }
 `;
 
@@ -101,9 +102,10 @@ const Landing = () => {
             onAnimationComplete={handleAnimationComplete}
           />
           <NavLink>
-            <A href="https://www.example.com">👉​ A propos de moi</A>
-            <A href="https://www.example.com">💻​ Mes Projets</A>
-            <A href="https://www.example.com">✉️​ Contact</A>
+            <A href="https://www.linkedin.com/in/thomas-caillau/">👉​ A propos de moi</A>
+            <A href="#Projets">💻​ Mes Projets</A>
+            <A href="mailto:tcaillau.dev@gmail.com">✉️​ Contact</A>
+            <A href="/portfolio/assets/CV_TCAILLAU_DEV_WEB.pdf" download="CV_TCAILLAU_DEV_WEB.pdf">💾​​ Telechargez mon CV</A>
           </NavLink>
         </Heading>
 

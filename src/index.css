@@ -21,6 +21,7 @@
   --gradient-from-top: linear-gradient(to bottom, #2563EB 0%, #60A5FA 30%, #ecf0f1 100%);
   
   /* Spacing */
+  --space-xs: 0.6em;
   --space-s: 1em;
   --space-m: 2em;
   --space-l: 4em;

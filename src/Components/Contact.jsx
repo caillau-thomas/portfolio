@@ -37,7 +37,7 @@ const Divider = styled.div`
   width: var(--width-m);
   height: 2px;
   background-color: #d4d4d4;
-  margin: 0 auto; /* Centre le divider */
+  margin: 0 auto;
   margin-bottom: var(--space-m);
   border-radius: var(--radius-small);
   @media (max-width: 1024px) {
@@ -71,7 +71,7 @@ const Contact = () => {
           onAnimationComplete={handleAnimationComplete}
         />
         <NavLink>
-          <A href="https://www.example.com">✉️​ Contact</A>
+        <A href="mailto:tcaillau.dev@gmail.com">✉️​ Contact</A>
         </NavLink>
       </Div>
     </Body>
