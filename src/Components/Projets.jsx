@@ -2,7 +2,7 @@
 import styled from 'styled-components'
 import { H3, H4, A2 } from './GlobalStyledComponents'
 import './Animations/style.css'
-import CF from '../assets/img/Card.png'
+import CF from '../../public/assets/img/Card.png'
 
 const Body = styled.div`
   display: flex;
@@ -68,7 +68,7 @@ const NavLink = styled.div`
   gap: var(--space-m);
   padding-top: var(--space-s);
   padding-bottom: var(--space-s);
-  
+
   @media (max-width: 1024px) {
     gap:var(--space-s);
   }

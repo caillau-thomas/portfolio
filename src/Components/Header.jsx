@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { A } from './GlobalStyledComponents'
 import BlurText from "./Animations/BlurTextAnimation";
 import './Animations/style.css'
-import Chevron from '../assets/chevron.png'
+import Chevron from '../../public/assets/chevron.png'
 
 const Body = styled.div`
   display: flex;
