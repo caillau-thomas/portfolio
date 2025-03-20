@@ -230,7 +230,7 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
     gap: 2em;
     padding: var(--space-s) var(--space-m);
   }
-  @media (max-width: 1023px) {
+  @media (max-width: 768px) {
     grid-template-columns: 1fr;
   }
 `,TE=Mt.div`
@@ -267,7 +267,7 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
   @media (max-width: 1024px) {
     gap:var(--space-s);
   }
-`,OE=()=>lt.jsx(EE,{id:"Projets",children:lt.jsxs(xE,{children:[lt.jsx(TE,{}),lt.jsxs(RE,{children:[lt.jsx(Ub,{children:"Argonauts"}),lt.jsx(Mb,{children:"Projet de site vitrine a destination d’une organisation de joueurs sur le jeu Star Citizen. "}),lt.jsxs(_E,{children:[lt.jsx(H0,{href:"https://www.example.com",children:"👉​ Découvrez le projet"}),lt.jsx(H0,{href:"https://www.example.com",children:"💻​ Visitez le site"})]})]})]})}),wE=Mt.div`
+`,OE=()=>lt.jsx(EE,{id:"Projets",children:lt.jsxs(xE,{children:[lt.jsx(TE,{}),lt.jsxs(RE,{children:[lt.jsx(Ub,{children:"Argonauts"}),lt.jsx(Mb,{children:"Projet de site vitrine a destination d’une organisation de joueurs sur le jeu Star Citizen. "}),lt.jsxs(_E,{children:[lt.jsx(H0,{href:"https://www.example.com",children:"👉​ Découvrez le projet"}),lt.jsx(H0,{href:"https://www.argonauts.fr/",children:"💻​ Visitez le site"})]})]})]})}),wE=Mt.div`
   display: flex;
   flex-direction: column;
 `,DE=()=>lt.jsxs(wE,{children:[lt.jsx(bE,{}),lt.jsx(OE,{})]}),zE=()=>lt.jsx(g1,{basename:"/portfolio/",children:lt.jsx($g,{children:lt.jsx(Us,{path:"/",element:lt.jsx(hE,{}),children:lt.jsx(Us,{index:!0,element:lt.jsx(DE,{})})})})});eg.createRoot(document.getElementById("root")).render(lt.jsx(zE,{}));
