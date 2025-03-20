@@ -3,7 +3,8 @@ import Landing from '../../Components/Landing'
 import Projets from '../../Components/Projets'
 
 const Body = styled.div`
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
 `
 
 export const Home = () => {

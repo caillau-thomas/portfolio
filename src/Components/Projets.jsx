@@ -8,10 +8,10 @@ const Body = styled.div`
   display: flex;
   flex-direction: column;
   width: 80%;
-  min-height: 40vh;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+
   @media (max-width: 1280px) {
     width: 90%;
   }
@@ -22,12 +22,12 @@ const Body = styled.div`
 const Div = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: var(--space-s) var(--space-l);
+  padding: var(--space-l) var(--space-l);
   align-items: center;
   justify-content: center;
   gap: 6em;
+
   @media (max-width: 1280px) {
-    
     gap: 2em;
     padding: var(--space-s) var(--space-m);
   }
@@ -44,11 +44,11 @@ const Card = styled.div`
   background-position:  center;
   background-repeat: no-repeat;
   min-height: 60vh;
+
   @media (max-width: 1280px) {
-    
     min-height: 50vh;
-    
   }
+
   @media (max-width: 1024px) {
     min-height: 40vh;
     gap: var(--space-s);
@@ -68,6 +68,7 @@ const NavLink = styled.div`
   gap: var(--space-m);
   padding-top: var(--space-s);
   padding-bottom: var(--space-s);
+  
   @media (max-width: 1024px) {
     gap:var(--space-s);
   }

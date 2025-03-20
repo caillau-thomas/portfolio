@@ -8,14 +8,10 @@ import Chevron from '../assets/chevron.png'
 const Body = styled.div`
   display: flex;
   flex-direction: column;
-  height: 80vh;
   justify-content: baseline;
-  padding-top: var(--space-m);
-  padding-left: var(--space-l);
-  padding-right: var(--space-l);
+  padding: var(--space-l) var(--space-l);
 
   @media (max-width: 1024px) {
-    height: auto;
     padding-left: var(--space-m);
     padding-right: var(--space-m);
   }
@@ -25,6 +21,7 @@ const Div = styled.div`
   display: flex;
   flex-direction: column;
   gap:var(--space-l);
+
   @media (max-width: 1024px) {
     gap: 0;
   }
@@ -34,6 +31,7 @@ const Heading = styled.div`
   display: flex;
   flex-direction: column;
   padding-right: var(--space-xl);
+
   @media (max-width: 1024px) {
     padding-right: 0;
     gap:var(--space-s);
@@ -47,6 +45,7 @@ const NavLink = styled.div`
   gap: var(--space-m);
   padding-top: var(--space-s);
   padding-bottom: var(--space-s);
+
   @media (max-width: 1024px) {
     flex-direction: column;
     gap:var(--space-s);
