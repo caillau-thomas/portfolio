@@ -152,8 +152,8 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
   display: flex;
   flex-direction: column;
   justify-content: baseline;
-  padding: var(--space-l) var(--space-l);
-
+  padding: var(--space-m) var(--space-l);
+  
   @media (max-width: 1024px) {
     padding-left: var(--space-m);
     padding-right: var(--space-m);
@@ -206,7 +206,7 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
     height: 40px; 
     margin-top: 25px;
   }
-`,bE=()=>{const l=()=>{console.log("Animation completed!")};return lt.jsx(mE,{children:lt.jsxs(vE,{children:[lt.jsxs(yE,{children:[lt.jsx(Gr,{text:"Hello There 👋",delay:120,animateBy:"words",direction:"top",className:"H2",onAnimationComplete:l}),lt.jsx(Gr,{text:"Moi c’est Thomas, un jeune développeur web passionné en recherche de projets !",delay:120,animateBy:"words",direction:"top",className:"H1",onAnimationComplete:l}),lt.jsxs(AE,{children:[lt.jsx(Uu,{href:"https://www.linkedin.com/in/thomas-caillau/",children:"👉​ A propos de moi"}),lt.jsx(Uu,{href:"#Projets",children:"💻​ Mes Projets"}),lt.jsx(Uu,{href:"mailto:tcaillau.dev@gmail.com",children:"✉️​ Contact"}),lt.jsx(Uu,{href:"/portfolio/assets/CV_TCAILLAU_DEV_WEB.pdf",download:"CV_TCAILLAU_DEV_WEB.pdf",children:"💾​​ Telechargez mon CV"})]})]}),lt.jsx(gE,{children:lt.jsx(pE,{href:"#Projets",className:"scroll-down"})})]})})},SE="/portfolio/assets/Card-C5uykLld.png",EE=Mt.div`
+`,bE=()=>{const l=()=>{console.log("Animation completed!")};return lt.jsx(mE,{children:lt.jsxs(vE,{children:[lt.jsxs(yE,{children:[lt.jsx(Gr,{text:"Hello There 👋",delay:120,animateBy:"words",direction:"top",className:"H2",onAnimationComplete:l}),lt.jsx(Gr,{text:"Moi c’est Thomas, un jeune développeur web passionné en recherche de projets !",delay:120,animateBy:"words",direction:"top",className:"H1",onAnimationComplete:l}),lt.jsxs(AE,{children:[lt.jsx(Uu,{href:"https://www.linkedin.com/in/thomas-caillau/",children:"👉​ A propos de moi"}),lt.jsx(Uu,{href:"/portfolio/assets/CV_TCAILLAU_DEV_WEB.pdf",download:"CV_TCAILLAU_DEV_WEB.pdf",children:"💾​​ Mon CV"}),lt.jsx(Uu,{href:"mailto:tcaillau.dev@gmail.com",children:"✉️​ Contact"}),lt.jsx(Uu,{href:"#Projets",children:"💻​ Mes Projets"})]})]}),lt.jsx(gE,{children:lt.jsx(pE,{href:"#Projets",className:"scroll-down"})})]})})},SE="/portfolio/assets/Card-C5uykLld.png",EE=Mt.div`
   display: flex;
   flex-direction: column;
   width: 80%;
