@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const H3 = styled.h2`
    font-size: var(--font-size-1s);
    font-weight: 300;
+   margin: 0;
    @media (max-width: 1024px) {
     font-size: var(--font-size-s);
   }
