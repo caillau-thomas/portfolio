@@ -84,7 +84,7 @@ const Projets = () => {
         <H3>Projet de site vitrine a destination d’une organisation de joueurs sur le jeu Star Citizen. </H3>
         <NavLink>
           <A2 href="https://www.example.com">👉​ Découvrez le projet</A2>
-          <A2 href="https://www.example.com">💻​ Visitez le site</A2>
+          <A2 href="https://www.argonauts.fr/">💻​ Visitez le site</A2>
         </NavLink>
       </Description>
       </Div>
