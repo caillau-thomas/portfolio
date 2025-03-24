@@ -102,9 +102,9 @@ const Landing = () => {
             onAnimationComplete={handleAnimationComplete}
           />
           <NavLink>
-            <A href="https://www.linkedin.com/in/thomas-caillau/">👉​ A propos de moi</A>
+            <A href="https://www.linkedin.com/in/thomas-caillau/" target="_blank">👉​ Mon Linkedin</A>
             <A href="/portfolio/assets/CV_TCAILLAU_DEV_WEB.pdf" download="CV_TCAILLAU_DEV_WEB.pdf">💾​​ Mon CV</A>
-            <A href="mailto:tcaillau.dev@gmail.com">✉️​ Contact</A>
+            <A href="mailto:tcaillau.dev@gmail.com" target="_blank">✉️​ Contact</A>
             <A href="#Projets">💻​ Mes Projets</A>
           </NavLink>
         </Heading>
