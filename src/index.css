@@ -3,6 +3,7 @@
   /* Fonts */
   --font-primary: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
   
+  --font-size-2xs: 1rem;
   --font-size-xs: 1.2rem;
   --font-size-s: 1.5rem;
   --font-size-1s: 2rem;
