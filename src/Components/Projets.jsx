@@ -45,7 +45,6 @@ const Card = styled.div`
   background-position:  center;
   background-repeat: no-repeat;
   min-height: 50vh;
-  border-radius: 8px;
 
   @media (max-width: 1280px) {
     min-height: 50vh;
@@ -66,7 +65,6 @@ const Card2 = styled.div`
   background-position:  center;
   background-repeat: no-repeat;
   min-height: 50vh;
-  border-radius: 8px;
 
   @media (max-width: 1280px) {
     min-height: 50vh;
