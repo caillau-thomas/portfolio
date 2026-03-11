@@ -244,7 +244,6 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
   background-position:  center;
   background-repeat: no-repeat;
   min-height: 50vh;
-  border-radius: 8px;
 
   @media (max-width: 1280px) {
     min-height: 50vh;
@@ -263,7 +262,6 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
   background-position:  center;
   background-repeat: no-repeat;
   min-height: 50vh;
-  border-radius: 8px;
 
   @media (max-width: 1280px) {
     min-height: 50vh;
