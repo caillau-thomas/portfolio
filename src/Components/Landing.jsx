@@ -103,7 +103,7 @@ const Landing = () => {
           />
           <NavLink>
             <A href="https://www.linkedin.com/in/thomas-caillau/" target="_blank">👉​ Mon Linkedin</A>
-            <A href="/portfolio/assets/CV_TCAILLAU_DEV_WEB.pdf" download="CV_TCAILLAU_DEV_WEB.pdf">💾​​ Mon CV</A>
+            <A href="/portfolio/assets/Mr. Thomas CAILLAU.pdf" download="Mr. Thomas CAILLAU.pdf">💾​​ Mon CV</A>
             <A href="mailto:tcaillau.dev@gmail.com" target="_blank">✉️​ Contact</A>
             <A href="#Projets">💻​ Mes Projets</A>
           </NavLink>
